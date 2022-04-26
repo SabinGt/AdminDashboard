@@ -16,9 +16,7 @@ export default function Category() {
                   <li className="breadcrumb-item">
                     <a href="#">Home</a>
                   </li>
-                  <li className="breadcrumb-item active">
-                     Category 
-                  </li>
+                  <li className="breadcrumb-item active">Category</li>
                 </ol>
               </div>
             </div>
@@ -49,6 +47,46 @@ export default function Category() {
               </div>
             </div>
           </div>
+          <section className="content">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-12">
+                  <div className="card">
+                    <div className="card-header">
+                      <h3 className="card-title">List of all categories</h3>
+                    </div>
+                    <div className="card-body">
+                      <table
+                        id="example1"
+                        className="table table-bordered table-striped"
+                      >
+                        <thead>
+                          <tr>
+                            <th>Category Name</th>
+                            <th>Category Name</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Chicken</td>
+                            <td>
+                              <button>
+                                <i className="fas fa-edit"></i>
+                              </button>
+                              <button>
+                                <i className="fas fa-trash"></i>
+                              </button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <div className="modal fade" id="modal-default">
             <div className="modal-dialog">
               <div className="modal-content">
