@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Menu() {
   return (
     <div>
@@ -51,7 +52,7 @@ export default function Menu() {
               <li className="nav-item menu-open">
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="./index.html" className="nav-link">
+                    <a href="/" className="nav-link">
                       <i className="nav-icon fas fa-tachometer-alt" />
                       <p>Dashboard</p>
                     </a>
@@ -59,7 +60,7 @@ export default function Menu() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#toogle" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     Category
@@ -68,21 +69,16 @@ export default function Menu() {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/forms/general.html" className="nav-link">
+                    <a href="/category" className="nav-link">
                       <i className="far fa-circle nav-icon" />
-                      <p>Add Category</p>
+                      <p>Category Details</p>
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a href="pages/forms/advanced.html" className="nav-link">
-                      <i className="far fa-circle nav-icon" />
-                      <p>Get Category</p>
-                    </a>
-                  </li>
+                  
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="#toggle" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     Product
@@ -91,13 +87,13 @@ export default function Menu() {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="pages/forms/general.html" className="nav-link">
+                    <a href="/AddProduct" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Add Product</p>
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a href="pages/forms/advanced.html" className="nav-link">
+                    <a href="/AllProducts" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Get Product</p>
                     </a>
