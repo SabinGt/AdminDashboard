@@ -7,7 +7,7 @@ export default function Header() {
             <a
               className="nav-link"
               data-widget="pushmenu"
-              href="#"
+              href="#home"
               role="button"
             >
               <i className="fas fa-bars" />
@@ -19,7 +19,7 @@ export default function Header() {
             </a>
           </li>
           <li className="nav-item d-none d-sm-inline-block">
-            <a href="#" className="nav-link">
+            <a href="#home" className="nav-link">
               Contact
             </a>
           </li>
@@ -29,7 +29,7 @@ export default function Header() {
             <a
               className="nav-link"
               data-widget="navbar-search"
-              href="#"
+              href="#home"
               role="button"
             >
               <i className="fas fa-search" />
@@ -60,12 +60,12 @@ export default function Header() {
             </div>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link" data-toggle="dropdown" href="#">
+            <a className="nav-link" data-toggle="dropdown" href="#home">
               <i className="far fa-comments" />
               <span className="badge badge-danger navbar-badge">3</span>
             </a>
             <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-              <a href="#" className="dropdown-item">
+              <a href="#home" className="dropdown-item">
                 <div className="media">
                   <img
                     src="dist/img/user1-128x128.jpg"
@@ -87,7 +87,7 @@ export default function Header() {
                 </div>
               </a>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item">
+              <a href="#home" className="dropdown-item">
                 <div className="media">
                   <img
                     src="dist/img/user8-128x128.jpg"
@@ -109,7 +109,7 @@ export default function Header() {
                 </div>
               </a>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item">
+              <a href="#home" className="dropdown-item">
                 <div className="media">
                   <img
                     src="dist/img/user3-128x128.jpg"
@@ -131,13 +131,13 @@ export default function Header() {
                 </div>
               </a>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item dropdown-footer">
+              <a href="#home" className="dropdown-item dropdown-footer">
                 See All Messages
               </a>
             </div>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link" data-toggle="dropdown" href="#">
+            <a className="nav-link" data-toggle="dropdown" href="#home">
               <i className="far fa-bell" />
               <span className="badge badge-warning navbar-badge">15</span>
             </a>
@@ -146,22 +146,22 @@ export default function Header() {
                 15 Notifications
               </span>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item">
+              <a href="#home" className="dropdown-item">
                 <i className="fas fa-envelope mr-2" /> 4 new messages
                 <span className="float-right text-muted text-sm">3 mins</span>
               </a>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item">
+              <a href="#home" className="dropdown-item">
                 <i className="fas fa-users mr-2" /> 8 friend requests
                 <span className="float-right text-muted text-sm">12 hours</span>
               </a>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item">
+              <a href="#home" className="dropdown-item">
                 <i className="fas fa-file mr-2" /> 3 new reports
                 <span className="float-right text-muted text-sm">2 days</span>
               </a>
               <div className="dropdown-divider" />
-              <a href="#" className="dropdown-item dropdown-footer">
+              <a href="#home" className="dropdown-item dropdown-footer">
                 See All Notifications
               </a>
             </div>
@@ -170,7 +170,7 @@ export default function Header() {
             <a
               className="nav-link"
               data-widget="fullscreen"
-              href="#"
+              href="#home"
               role="button"
             >
               <i className="fas fa-expand-arrows-alt" />
@@ -181,7 +181,7 @@ export default function Header() {
               className="nav-link"
               data-widget="control-sidebar"
               data-controlsidebar-slide="true"
-              href="#"
+              href="#home"
               role="button"
             >
               <i className="fas fa-th-large" />

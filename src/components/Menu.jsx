@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 export default function Menu() {
   return (
     <div>
@@ -18,11 +19,11 @@ export default function Menu() {
               <img
                 src="dist/img/user2-160x160.jpg"
                 className="img-circle elevation-2"
-                alt="User Image"
+                alt="User"
               />
             </div>
             <div className="info">
-              <a href="#" className="d-block">
+              <a href="#home" className="d-block">
                 Alexander Pierce
               </a>
             </div>
@@ -52,10 +53,10 @@ export default function Menu() {
               <li className="nav-item menu-open">
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="/" className="nav-link">
+                    <Link to ="/" className="nav-link">
                       <i className="nav-icon fas fa-tachometer-alt" />
                       <p>Dashboard</p>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -69,10 +70,10 @@ export default function Menu() {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="/category" className="nav-link">
+                    <Link to="/category" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Category Details</p>
-                    </a>
+                    </Link>
                   </li>
                   
                 </ul>
@@ -87,16 +88,16 @@ export default function Menu() {
                 </a>
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <a href="/AddProduct" className="nav-link">
+                    <Link to="/AddProduct" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Add Product</p>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="/AllProducts" className="nav-link">
+                    <Link to="/AllProducts" className="nav-link">
                       <i className="far fa-circle nav-icon" />
                       <p>Get Product</p>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
