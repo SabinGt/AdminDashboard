@@ -1,40 +1,24 @@
-export default function AddProduct() {
+import React from 'react'
+
+export default function FormModal() {
   return (
     <div>
-      <div className="content-wrapper">
-        <section className="content-header">
-          <div className="container-fluid">
-            <div className="row mb-2">
-              <div className="col-sm-6">
-                <h1>Add Product</h1>
-              </div>
-              <div className="col-sm-6">
-                <ol className="breadcrumb float-sm-right">
-                  <li className="breadcrumb-item">
-                    <a href="#">Home</a>
-                  </li>
-                  <li className="breadcrumb-item active">Product</li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="content">
-          <div className="container-fluid">
-            <div className="card card-default">
-              <div className="card-header">
-                <h3 className="card-title">Add product</h3>
-                <div className="card-tools">
+            <div className="modal fade" id="modal-product">
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h4 className="modal-title">Edit Product</h4>
                   <button
                     type="button"
-                    className="btn btn-tool"
-                    data-card-widget="collapse"
+                    className="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
                   >
-                    <i className="fas fa-minus" />
+                    <span aria-hidden="true">×</span>
                   </button>
                 </div>
-              </div>
-              <div className="card-body">
+                <div className="modal-body">
+                <div className="card-body">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -106,15 +90,22 @@ export default function AddProduct() {
                   </div>
                 </div>
               </div>
-              <div className="card-footer">
-                <button type="submit" class="btn btn-primary">
-                  Submit
-                </button>
+                </div>
+                <div className="modal-footer justify-content-between">
+                  <button
+                    type="button"
+                    className="btn btn-default"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" className="btn btn-primary">
+                    Save changes
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
     </div>
-  );
+  )
 }

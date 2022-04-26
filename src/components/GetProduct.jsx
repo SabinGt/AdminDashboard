@@ -1,3 +1,4 @@
+import FormModal from "./FormModal";
 export default function GetProduct() {
   return (
     <div>
@@ -46,7 +47,10 @@ export default function GetProduct() {
                             <td>Rs. 250</td>
                             <td>Image</td>
                             <td>
-                              <button>
+                              <button
+                                data-toggle="modal"
+                                data-target="#modal-product"
+                              >
                                 <i className="fas fa-edit"></i>
                               </button>
                               <button>
@@ -62,6 +66,7 @@ export default function GetProduct() {
               </div>
             </div>
           </section>
+          <FormModal />
         </section>
       </div>
     </div>

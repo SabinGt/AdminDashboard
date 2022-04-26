@@ -6,10 +6,7 @@ export default function Category() {
           <div className="container-fluid">
             <div className="row mb-2">
               <div className="col-sm-6">
-                <h1>
-                  Add &amp; Get
-                  <small>Category</small>
-                </h1>
+                <h1>Add &amp; Get Category</h1>
               </div>
               <div className="col-sm-6">
                 <ol className="breadcrumb float-sm-right">
@@ -38,7 +35,7 @@ export default function Category() {
                       type="button"
                       className="btn btn-default"
                       data-toggle="modal"
-                      data-target="#modal-default"
+                      data-target=".modal-default"
                     >
                       Add Category
                     </button>
@@ -56,10 +53,7 @@ export default function Category() {
                       <h3 className="card-title">List of all categories</h3>
                     </div>
                     <div className="card-body">
-                      <table
-                        
-                        className="table table-bordered table-striped tableAttributes"
-                      >
+                      <table className="table table-bordered table-striped tableAttributes">
                         <thead>
                           <tr>
                             <th>Category Name</th>
@@ -70,7 +64,10 @@ export default function Category() {
                           <tr>
                             <td>Chicken</td>
                             <td>
-                              <button>
+                              <button
+                                data-toggle="modal"
+                                data-target="#modal-default"
+                              >
                                 <i className="fas fa-edit"></i>
                               </button>
                               <button>
