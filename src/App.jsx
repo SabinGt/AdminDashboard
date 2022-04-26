@@ -1,12 +1,9 @@
 import React from "react";
-import { BrowserRouter, Routes ,Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
-import Dashboard from "./components/Dashboard"
-import Category from "./Pages/Category";
-import AddProduct from "./components/AddProduct";
-import GetProduct from "./components/GetProduct";
+import Routing from "./routes/Routing";
 function App() {
   return (
     <BrowserRouter>
@@ -23,12 +20,7 @@ function App() {
     
         <Header />
         <Menu />
-       <Routes>
-         <Route path="/" element={<Dashboard />}></Route>
-         <Route path="/category" element={<Category />}></Route>
-         <Route path="/AddProduct" element={<AddProduct />}></Route>
-         <Route path="/AllProducts" element={<GetProduct />}></Route>
-       </Routes>
+       <Routing />
         <Footer />
       
     </div>
