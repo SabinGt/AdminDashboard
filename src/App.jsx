@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Menu from './components/Menu';
 import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
+import Category from './Pages/Category';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Menu />
       <Dashboard />
+      <Category />
       <Footer />
     </div>
   );
