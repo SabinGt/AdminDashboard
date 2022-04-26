@@ -5,6 +5,7 @@ import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer";
 import Category from "./Pages/Category";
 import AddProduct from "./components/AddProduct";
+import GetProduct from "./components/GetProduct";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Dashboard />
       <Category />
       <AddProduct />
+      <GetProduct />
       <Footer />
     </div>
   );

@@ -57,8 +57,8 @@ export default function Category() {
                     </div>
                     <div className="card-body">
                       <table
-                        id="example1"
-                        className="table table-bordered table-striped"
+                        
+                        className="table table-bordered table-striped tableAttributes"
                       >
                         <thead>
                           <tr>
