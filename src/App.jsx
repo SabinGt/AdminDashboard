@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer";
 import Category from "./Pages/Category";
+import AddProduct from "./components/AddProduct";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Menu />
       <Dashboard />
       <Category />
+      <AddProduct />
       <Footer />
     </div>
   );
