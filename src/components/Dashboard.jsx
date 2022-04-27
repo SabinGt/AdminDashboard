@@ -1,6 +1,8 @@
+import Chart from "./Chart";
 export default function Dashboard() {
   return (
     <div>
+    <Chart />
       <div className="content-wrapper">
         <div className="content-header">
           <div className="container-fluid">

@@ -78,13 +78,13 @@ export default function AddProduct() {
                       <label htmlFor="exampleInputFile">File input</label>
                       <div className="input-group">
                         <div className="custom-file">
-                          <input type="file" className="custom-file-input" />
-                          <label
+                          <input type="file" accept="image/*" />
+                          {/* <label
                             className="custom-file-label"
                             htmlFor="exampleInputFile"
                           >
                             Choose file
-                          </label>
+                          </label> */}
                         </div>
                       </div>
                     </div>
