@@ -53,7 +53,7 @@ export default function Menu() {
               <li className="nav-item menu-open">
                 <ul className="nav nav-treeview">
                   <li className="nav-item">
-                    <Link to ="/" className="nav-link">
+                    <Link to="/" className="nav-link">
                       <i className="nav-icon fas fa-tachometer-alt" />
                       <p>Dashboard</p>
                     </Link>
@@ -75,7 +75,6 @@ export default function Menu() {
                       <p>Category Details</p>
                     </Link>
                   </li>
-                  
                 </ul>
               </li>
               <li className="nav-item">

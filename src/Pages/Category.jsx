@@ -1,3 +1,4 @@
+
 export default function Category() {
   return (
     <div>
@@ -11,7 +12,7 @@ export default function Category() {
               <div className="col-sm-6">
                 <ol className="breadcrumb float-sm-right">
                   <li className="breadcrumb-item">
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                   </li>
                   <li className="breadcrumb-item active">Category</li>
                 </ol>
@@ -35,7 +36,7 @@ export default function Category() {
                       type="button"
                       className="btn btn-default"
                       data-toggle="modal"
-                      data-target=".modal-default"
+                      data-target="#modal-default"
                     >
                       Add Category
                     </button>
